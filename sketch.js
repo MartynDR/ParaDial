@@ -202,7 +202,7 @@ function lowResRender(){
   text("Dial Design", 10, 50);
   text(day(), 10, 70); text(month(), 40, 70); text(year(), 70, 70); 
   text("Dial Size: 28.5mm", 10, 90);
-
+  text("https://martyndr.github.io/ParaDial/", 10,110);
 
   for(var i = 0; i < numberOfTracks; i++){
     tracks[i].xpos = 540;
